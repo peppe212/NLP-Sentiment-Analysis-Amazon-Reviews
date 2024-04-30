@@ -21,7 +21,7 @@ The dataset provides a vast and diverse collection of textual reviews, suitable 
 - **Machine Learning Model Development and Training**: To implement a strategic selection of models, including:
   1. **Naïve Bayes Classifier**: An excellent starting point for model benchmarking due to its simplicity and computational speed. Despite its naïve assumption of feature independence, it performs surprisingly well for text classification tasks and will serve as our baseline model.
   2. **Support Vector Machine (LinearSVC)**: Employs a sophisticated approach to enhance the model's capability to predict outcomes with greater precision by effectively leveraging the data features it analyzes.
-  3. **Deep Learning Model**: Uses Sequential API model, custom-built to analyze the subtleties and nuances of language expressed in Amazon reviews. Our model was trained and tuned on a curated dataset to achieve high accuracy in sentiment classification.
+  3. **Deep Learning Model**: My best model! Uses Sequential API model, custom-built to analyze the subtleties and nuances of language expressed in Amazon reviews. Our model was trained and tuned on a curated dataset to achieve high accuracy in sentiment classification.
   4. **DistilBERT**: A distilled version of the larger BERT model, pre-trained on vast text corpora to grasp the subtle nuances of language context efficiently. It will be fine-tuned on our dataset to extract concise and profound insights into the sentiment conveyed within the Amazon reviews.
 - **Model Evaluation**: Rigorous assessment of each model using metrics such as accuracy, precision, recall, and F1-score.
 - **Analysis of Results**: To understand the general sentiment expressed in the reviews.
